@@ -1,0 +1,18 @@
+{
+    "name": "csvtests",
+    "description": "An example of CSV file validation.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ignas-sakalauskas/ChakramCsvFileValidation.git"
+    },
+    "license": "MIT",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "mocha ."
+    },
+    "devDependencies": {
+        "chakram": "^1.5.0",
+        "mocha": "^3.2.0",
+        "csv-file-validator": "^1.2.4"
+    }
+}
